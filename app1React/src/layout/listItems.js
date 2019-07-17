@@ -20,7 +20,7 @@ const ShoppingCartWhiteIcon = styled(ShoppingCartIcon)({
 
 const handleClick = () => {
   console.log("secondList clicked");
-  return <Redirect to="http://localhost:9000/#/app2" />;
+  window.location.href = "/#/app2";
 };
 export const mainListItems = (
   <div>
